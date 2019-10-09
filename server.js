@@ -25,7 +25,7 @@ const loginRouter = require('./routes/login.js');
 app.post('/api/user/login', loginRouter);
 
 const moviesRouter = require('./routes/movies.js'); // add movies.js file
-app.get('/api/user/movies', moviesRouter);
+app.get('/api/movies', moviesRouter);
 
 
 

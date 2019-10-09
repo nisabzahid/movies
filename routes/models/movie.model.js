@@ -7,9 +7,7 @@ const movieSchema = new Schema({
     year: { type: Date },
     rating: { type: Number },
     nation: { type: String },
-    actors: [{
-
-    }]
+    actors: []
 });
 
 
