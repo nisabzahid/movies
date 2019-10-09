@@ -15,13 +15,3 @@ const movie = mongoose.model('movie', movieSchema);
 
 module.exports = movie;
 
-[{
-    title: 'title',
-    year: 'year',
-    rating: 'rating',
-    actors: [{
-        name: 'name',
-        birthday: 'birthday',
-        country: 'country'
-    }]
-}]

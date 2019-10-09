@@ -1,1 +1,41 @@
 movie website with login
+
+clone the repo.
+
+ To start the webserver nodemone server
+ Task 1. GET - host/api/actors will return
+
+[{
+    name: 'name',
+    birthday: 'birthday',
+    country: 'country'
+ }]
+
+Task 2. POST - host/api/user/signup will accept username, password and will return jwt token. username must be unique.
+
+{
+    token: 'token'
+}
+
+Task 3. POST - host/api/user/login will accept username, password and will return jwt token.
+
+{
+    token: 'token'
+}
+
+Task 4. Authenticated route. GET - host/api/movies will return
+
+[{
+    title: 'title',
+    year: 'year',
+    rating: 'rating',
+    actors: [{
+      name: 'name',
+      birthday: 'birthday',
+      country: 'country'
+    }]
+  }]
+
+
+
+
